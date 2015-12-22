@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="es" >
+
+<head>
+  <meta charset="utf-8">
+
+
+  <title>A Quien Llamo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="themes/aquienllamo.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".content").fadeOut(15000);
+        window.location = "login.html";
+    },3000);
+});
+</script>
+
+</head>
+
+
+<body>
+
+
+
+
+<div data-role="page">
+  <div data-role="header">
+
+  </div><!-- /header -->
+
+
+<div class="ui-grid-solo">
+    <div class="content"></div>
+    <div class="imgcenter">
+    <h4>http://aquienllamo.tk</h4>
+    <img class="imgcenter" src="themes/logo.png">
+    <h1>A Quien Llamo</h1>
+    <h3>Todos los servicios en un solo lugar</h3>
+
+    </div>
+
+
+
+
+
+
+
+    <div  data-role="footer">
+        <div class="span3 pie">
+          <img class="i1"width='25px' height='3px' src="{{STATIC_URL}}inicio/img/im2.jpg" ALIGN=MIDDLE>
+          <p id="parrafo"><strong>Visitanos en</strong><br>Resistencia<br>Av 9 de julio 1330</p>
+        </div>
+        <div class="span3 pie">
+          <img class="i2"width='25px' height='3px' src="{{STATIC_URL}}inicio/img/im1.jpg" ALIGN=MIDDLE><p id="parrafo">
+          <p id="parrafo1"><strong>Comunicate </strong><br>T:(370)-4418152<br></p>
+        </div>
+        <div class="span3 pie">
+          <img class="i3" width='40px' height='40px' src="{{STATIC_URL}}inicio/img/im3.jpg" ALIGN=MIDDLE>
+          <p id="parrafo2"><strong>Contacto</strong><br>http://qaysen.com</p><br>
+          <img class="it" src="{{STATIC_URL}}inicio/img/im5.jpg"> <img class="if" src="{{STATIC_URL}}inicio/img/im6.jpg"><img class="ig" src="{{STATIC_URL}}inicio/img/im7.jpg">
+        </div>
+        <div class="span3 pie">
+          <img class="i4" width='30px' height='40px' src="{{STATIC_URL}}inicio/img/im4.jpg" ALIGN=top>
+          <p id="parrafo3">All rights<br>reserved</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+</body>
+</html>
